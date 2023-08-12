@@ -1,0 +1,363 @@
+@font-face {
+    font-family: bungee;
+    src: url(fonts/Bungee-Regular.ttf);
+}
+
+@font-face {
+    font-family: candu;
+    src: url(fonts/AveriaSerifLibre-Bold.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.my-container{
+    background-color: darkolivegreen;
+    width: 100vw;
+    height: 100vh; 
+    overflow-x: hidden;
+   
+}
+
+.all{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mads{
+    color:  beige;
+    border-left: 10px solid  beige;
+    font-family: candu;
+}
+
+.logo-nav{
+    color: beige !important;
+    font-family: candu;
+}
+
+.my-school1{
+    background-color: red;
+    width: 100%;
+    /* height: 40%; */
+}
+
+.nav-class{
+    /* background-color: yellowgreen; */
+    height: 12%;
+ 
+}
+.card:hover{
+    background-color:  rgb(29, 165, 29) !important; 
+}
+
+/* .card{
+    background-color: bisque;
+} */
+
+.text-content{
+    /* background-color: blue; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.card-content{
+    height: 60%;
+    width: 80%;
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige; 
+}
+
+/* .card-body{
+    background-color: beige;
+} */
+
+
+
+.card{
+    width: 70%;
+    height: 100%;
+    background-color: beige;
+}
+
+.small{
+    color: gray;
+    font-weight: 600;
+}
+
+.my-about{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-body .card-text{
+    font-weight: lighter;
+    font-family: candu;
+}
+
+.d-block{
+    height: 90vh;
+}
+
+.bio{
+    font-weight: bolder;
+    border-bottom: 2px solid beige;
+    color: beige;
+
+    font-family: candu;
+}
+
+.tet{
+    font-weight: 700;
+    color: beige;
+    font-family: candu;
+
+}
+
+.our{
+    font-weight: bold;
+    font-family: candu;
+}
+
+.adds{
+    font-weight: bolder;
+    color: beige;
+    font-size: 35px;
+    font-family:  bungee;
+}
+
+.voa{
+    font-weight: bolder;
+    color: beige;
+    font-size: 25px;
+    font-family: bungee;
+}
+
+.my-nav{
+    font-weight: 700;
+}
+
+.text-content{
+    /* background-color: blue; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.my-staff{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.staf{
+    width: 100%;
+    height: 40%;
+    /* background-color: darkcyan; */
+    font-weight: bolder;
+    border-bottom: 2px solid beige;
+    color: beige;
+    font-family: candu;
+}
+
+.my-box{
+    width: 100%;
+    height: 95%;
+    /* background-color: darkgray; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.box-1{
+    width: 20%;
+    height: 80%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 7px 7px 7px;
+}
+
+
+.box-2{
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+.box-3{
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+}
+
+ .ava{
+    width: 100%;
+    height:100%;
+
+} 
+
+.text-cont{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+    text-align: center;
+}
+
+.my-pict-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 40%;
+    height: 40%; 
+    border-radius: 100%;
+}
+
+.my-pict-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    width: 100%;
+    height: 30%;
+    /* border-radius: 100%; */
+}
+
+.my-pict-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    width: 100%;
+    height: 30%;
+    /* border-radius: 100%; */
+}
+
+.tas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ner{
+    font-family: candu;
+   
+}
+
+.taz{
+    font-family: candu;
+}
+
+.my-contact{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group  .form-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+}
+
+.row .form-label .form-control{
+    width: 50px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.input-grp{
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-5{
+    background-color: beige;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.my-copy{
+    color: black;
+    font-size: 18px; 
+    font-family: candu;
+}
+
+.col-12 .btn{
+    background-color: beige;
+    border: 2px solid beige;
+    color: black;
+}
